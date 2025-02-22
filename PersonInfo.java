@@ -10,7 +10,7 @@ class Person {
     }
 
     public void display() {
-        System.out.println(name + " - " + age);
+        System.out.println(name + " / " + age + " / " + address);
     }
 }
 
