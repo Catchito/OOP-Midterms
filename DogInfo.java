@@ -16,11 +16,13 @@ class Dog {
     }
 
     public void display() {
-        System.out.println("Dog Name: " + name + ", Breed: " + breed);
+       System.out.println("Dog Name: " + name);
+        System.out.println("Breed: " + breed);
+        System.out.println();
     }
 }
 
-public class DogMain {
+public class DogInfo {
     public static void main(String[] args) {
         Dog dog1 = new Dog("Ace", "Great Dane");
         Dog dog2 = new Dog("Krypto", "Labrador Retriever");
